@@ -1,0 +1,64 @@
+/* --- general --- */
+.parallax-container {
+  height : 250px;
+}
+
+a {
+  cursor : pointer;
+  color  : #ffab40;
+}
+
+.cursor-progress {
+  cursor : progress;
+}
+
+/* --- info-area --- */
+
+.contact-table i {
+  padding-right: 5px;
+}
+
+.reference-categories > div {
+  margin-top: 5px;
+}
+
+/* --- cv-area --- */
+
+.cv-table tr > td:first-of-type { /* cv period cells */
+  vertical-align : top;
+  min-width      : 75px;
+}
+
+.cv-title {
+  font-weight : bold;
+}
+
+.cv-sub-title {
+  font-weight : normal;
+}
+
+.cv-note {
+}
+
+.cv-sub-note {
+  font-style : italic;
+}
+
+.cv-status {
+  font-style : italic;
+  color      : #ffab40;
+}
+
+.cv-list {
+  padding-left : 18px;
+}
+
+.cv-list ul > li {
+  list-style-type : disc;
+}
+
+.cv-list .material-icons.tiny,
+.cv-table .material-icons.tiny {
+  position : relative;
+  top      : 2px;
+}
