@@ -1,8 +1,4 @@
 /* --- general --- */
-.parallax-container {
-  height : 250px;
-}
-
 a {
   cursor : pointer;
   color  : #ffab40;
@@ -12,14 +8,74 @@ a {
   cursor : progress;
 }
 
+#education:target,
+#experience:target,
+#others:target,
+#person:target,
+#cv:target {
+  padding-top : 56px;
+  margin-top  : -56px;
+  z-index     : -1;
+}
+
+@media only screen and (min-width : 601px) {
+  #education:target,
+  #experience:target,
+  #others:target,
+  #person:target,
+  #headline:target {
+    padding-top : 64px;
+    margin-top  : -64px;
+  }
+}
+
+/* --- background --- */
+
+.background-container {
+  z-index          : -1;
+  position         : fixed;
+  top              : 0;
+  right            : 0;
+  bottom           : 0;
+  left             : 0;
+  background-size  : cover;
+  background-image : url(images/brosinnadel.jpg);
+}
+
+/* --- header --- */
+
+.brand-logo > div {
+  font-size : 0.9em;
+}
+
+.brand-logo > img {
+  height : 36px;
+  margin : 10px;
+}
+
+@media only screen and (min-width : 601px) {
+  .brand-logo > div {
+    font-size : 0.7em;
+  }
+
+  .brand-logo > img {
+    height : 42px;
+    margin : 11px;
+  }
+}
+
+#sidenav-overlay {
+  z-index: 996;
+}
+
 /* --- info-area --- */
 
 .contact-table i {
-  padding-right: 5px;
+  padding-right : 5px;
 }
 
 .reference-categories > div {
-  margin-top: 5px;
+  margin-top : 5px;
 }
 
 /* --- cv-area --- */
