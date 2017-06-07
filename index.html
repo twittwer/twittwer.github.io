@@ -69,7 +69,8 @@
     <div id="cv" class="center">
       <h1>
         Lebenslauf
-        <a id="online-link" class="hide" href="#cv"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+        <a id="online-link" class="hide print-link" href="http://twittwer.github.io/"><i class="fa fa-external-link"
+                                                                                         aria-hidden="true"></i></a>
       </h1>
     </div>
     <div class="row">
@@ -93,7 +94,7 @@
                     </a>
                   </div>
                   <div>
-                    <a href="https://www.linkedin.com/in/tobias-wittwer-25b444142">
+                    <a class="print-link" href="https://www.linkedin.com/in/tobias-wittwer-25b444142">
                       <i class="fa fa-linkedin-square fa-lg"></i>
                       Tobias Wittwer
                     </a>
@@ -104,9 +105,6 @@
                   <img class="responsive-img" src="images/tobias-wittwer.jpg">
                 </div>
               </div>
-              <!--<div class="card-action right-align">-->
-              <!--<a href="mailto:t.wittwer95@gmail.com">Contact</a>-->
-              <!--</div>-->
             </div>
           </div>
           <div id="reference-container" class="col s12 m6 l12">
@@ -119,8 +117,9 @@
                       Zertifikate
                     </a>
                     <ul id='dropdown-certificates' class='dropdown-content'>
-                      <li><a href="docs/zeugnis-allgemeine-hochschulreife.pdf">Allgemeiner Hochschulreife</a></li>
                       <li><a href="docs/zertifikat-itil.pdf">ITIL Zertifizierung</a></li>
+                      <li><a href="docs/zertifikat-foej.pdf">FÖJ Zertifikat</a></li>
+                      <li><a href="docs/zeugnis-allgemeine-hochschulreife.pdf">Allgemeiner Hochschulreife</a></li>
                     </ul>
                   </div>
                   <div>
@@ -129,22 +128,30 @@
                     </a>
                     <ul id='dropdown-evaluation' class='dropdown-content'>
                       <li><a href="docs/arbeitszeugnis-wvsg.pdf">WvSG Arbeitszeugnis</a></li>
+                      <li><a href="docs/arbeitszeugnis-sachsenforst.pdf">FÖJ Arbeitszeugnis</a></li>
                       <li><a href="docs/beurteilung-contract-imaging_ts-custops.pdf">Praxisphase I</a></li>
                       <li><a href="docs/beurteilung-angie_eis.pdf">Praxisphase II</a></li>
-                      <!-- TODO: Add GHSTS Beurteilung -->
-                      <li><a href="#TODO">Praxisphase III</a></li>
-                      <!-- TODO: Add Curiosity Beurteilung -->
-                      <li><a href="#TODO">Praxisphase IV</a></li>
+                      <li><a href="docs/beurteilung-ghsts_adm.pdf">Praxisphase III</a></li>
+                      <li><a href="docs/beurteilung-curiosity_ts-rnd.pdf">Praxisphase IV</a></li>
                     </ul>
                   </div>
                   <div>
                     <a class='dropdown-button btn' data-activates='dropdown-courses'>
-                      Seminare
+                      Bescheinigungen
                     </a>
                     <ul id='dropdown-courses' class='dropdown-content'>
-                      <li><a href="docs/zertifikat-sap-hana.pdf">Introduction to SAP HANA</a></li>
+                      <li><a href="docs/bescheinigung-sap-hana.pdf">Introduction to SAP HANA</a></li>
+                      <li><a href="docs/bescheinigung-kultuskonf.pdf">Kultusminister Konferenz</a></li>
+                      <li><a href="docs/bescheinigung-spezi-2010.pdf">Informatik Spezi-Lager 2010</a></li>
+                      <li><a href="docs/bescheinigung-spezi-2012.pdf">Informatik Spezi-Lager 2012</a></li>
                     </ul>
                   </div>
+                </div>
+                <div class="cv-sub-note">
+                  <a href="tobias-wittwer-cv.zip">
+                    <i class="material-icons">file_download</i>
+                    Kompletter CV + Anhänge
+                  </a>
                 </div>
               </div>
             </div>
@@ -225,7 +232,10 @@
                       Abschluss: Allgemeine Hochschulreife, Note: 1,8
                     </div>
                     <div class="cv-status">
-                      <a href="docs/zeugnis-allgemeine-hochschulreife.pdf">Siehe Zeugnis <i class="material-icons tiny">attachment</i></a>
+                      <a class="print-link" href="docs/zeugnis-allgemeine-hochschulreife.pdf">
+                        Siehe Zeugnis
+                        <i class="material-icons tiny">attachment</i>
+                      </a>
                     </div>
                   </td>
                 </tr>
@@ -243,6 +253,18 @@
                         <li>
                           11./12. Klasse: Besondere Lernleistung zum Thema "Dokumentation des Computersystems des
                           Werner-von-Siemens-Gymnasiums", Note: 15 Pkt.
+                        </li>
+                        <li>
+                          Teilnahme an Informatik Spezialistenlager in den Klassen
+                          <a class="print-link" href="docs/bescheinigung-spezi-2010.pdf">
+                            09
+                            <i class="material-icons tiny">attachment</i>
+                          </a>
+                          und
+                          <a class="print-link" href="docs/bescheinigung-spezi-2012.pdf">
+                            11
+                            <i class="material-icons tiny">attachment</i>
+                          </a>
                         </li>
                       </ul>
                     </div>
@@ -299,11 +321,9 @@
                             Java Spring REST-API & React-Frontend
                           </div>
                           <div class="cv-status">
-                            <!-- TODO: Add Curiosity Beurteilung -->
-                            <!--<a href="#TODO">-->
-                            <!--Siehe Beurteilung <i class="material-icons tiny">attachment</i>-->
-                            <!--</a>-->
-                            Beurteilungsupload ausstehend <i class="material-icons tiny">file_upload</i>
+                            <a class="print-link" href="docs/beurteilung-curiosity_ts-rnd.pdf">
+                              Siehe Beurteilung <i class="material-icons tiny">attachment</i>
+                            </a>
                           </div>
                         </li>
                         <li>
@@ -315,11 +335,9 @@
                             Desktop Applikation mit AngularJS & NodeWebKit
                           </div>
                           <div class="cv-status">
-                            <!-- TODO: Add GHSTS Beurteilung -->
-                            <!--<a href="#">-->
-                            <!--Siehe Beurteilung <i class="material-icons tiny">attachment</i>-->
-                            <!--</a>-->
-                            Beurteilungsupload ausstehend <i class="material-icons tiny">file_upload</i>
+                            <a class="print-link" href="docs/beurteilung-ghsts_adm.pdf">
+                              Siehe Beurteilung <i class="material-icons tiny">attachment</i>
+                            </a>
                           </div>
                         </li>
                         <li>
@@ -331,7 +349,7 @@
                             System Tray Applikation mit C#, Refactoring für Objektorientierung & Multithreading
                           </div>
                           <div class="cv-status">
-                            <a href="docs/beurteilung-angie_eis.pdf">
+                            <a class="print-link" href="docs/beurteilung-angie_eis.pdf">
                               Siehe Beurteilung <i class="material-icons tiny">attachment</i>
                             </a>
                           </div>
@@ -345,7 +363,7 @@
                             Desktop Applikation mit C#
                           </div>
                           <div class="cv-status">
-                            <a href="docs/beurteilung-contract-imaging_ts-custops.pdf">
+                            <a class="print-link" href="docs/beurteilung-contract-imaging_ts-custops.pdf">
                               Siehe Beurteilung <i class="material-icons tiny">attachment</i>
                             </a>
                           </div>
@@ -364,6 +382,17 @@
                       Einsatzstelle: Staatsbetrieb Sachsenforst (Fbz. Neustadt)<br/>
                       Träger: Paritätische Freiwilligendienste Sachsen gGmbH
                     </div>
+                    <div class="cv-status">
+                      <a class="print-link" href="docs/zertifikat-foej.pdf">
+                        Siehe Zertifikat
+                        <i class="material-icons tiny">attachment</i>
+                      </a>
+                      <br/>
+                      <a class="print-link" href="docs/arbeitszeugnis-sachsenforst.pdf">
+                        Siehe Arbeitszeugnis
+                        <i class="material-icons tiny">attachment</i>
+                      </a>
+                    </div>
                   </td>
                 </tr>
                 <tr>
@@ -378,9 +407,17 @@
                     <div class="cv-list">
                       <ul>
                         <li>
-                          Organisation & Repräsentation des Teams
+                          Organisation & Repräsentation<sup>1</sup> des Teams
                           <div class="cv-sub-note">
                             20 Schüler der 7.-12. Klasse
+                          </div>
+                          <div class="cv-sub-note">
+                            ( <sup>1</sup>Bspw. bei
+                            <a class="print-link" href="docs/bescheinigung-kultuskonf.pdf">
+                              Kultusminister Konferenz
+                              <i class="material-icons tiny">attachment</i>
+                            </a>
+                            )
                           </div>
                         </li>
                         <li>
@@ -391,7 +428,7 @@
                         </li>
                         <li>
                           <div class="cv-status">
-                            <a href="docs/arbeitszeugnis-wvsg.pdf">Siehe Arbeitszeugnis <i class="material-icons tiny">attachment</i></a>
+                            <a class="print-link" href="docs/arbeitszeugnis-wvsg.pdf">Siehe Arbeitszeugnis <i class="material-icons tiny">attachment</i></a>
                           </div>
                         </li>
                       </ul>
@@ -460,7 +497,7 @@
                 <div class="cv-list">
                   <ul>
                     <li>
-                      <a href="docs/zertifikat-itil.pdf">
+                      <a class="print-link" href="docs/zertifikat-itil.pdf">
                         ITIL Zertifizierung
                         <i class="material-icons tiny">attachment</i>
                       </a>
@@ -475,7 +512,7 @@
                 <div class="cv-list">
                   <ul>
                     <li>
-                      <a href="docs/zertifikat-sap-hana.pdf">
+                      <a class="print-link" href="docs/bescheinigung-sap-hana.pdf">
                         Introduction to Native Application Development on SAP HANA
                         <i class="material-icons tiny">attachment</i>
                       </a>

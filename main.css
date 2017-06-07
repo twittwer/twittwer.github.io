@@ -68,22 +68,7 @@ a {
   z-index: 996;
 }
 
-/* --- info-area --- */
-
-.contact-table i {
-  padding-right : 5px;
-}
-
-.reference-categories > div {
-  margin-top : 5px;
-}
-
-/* --- cv-area --- */
-
-.cv-table tr > td:first-of-type { /* cv period cells */
-  vertical-align : top;
-  min-width      : 75px;
-}
+/* --- cv-elements --- */
 
 .cv-title {
   font-weight : bold;
@@ -113,8 +98,31 @@ a {
   list-style-type : disc;
 }
 
-.cv-list .material-icons.tiny,
-.cv-table .material-icons.tiny {
+/* --- cv-table --- */
+
+.cv-table tr > td:first-of-type { /* cv period cells */
+  vertical-align : top;
+  min-width      : 75px;
+}
+
+/* --- info-area --- */
+
+.contact-table i {
+  padding-right : 5px;
+}
+
+.reference-categories > div {
+  margin-top : 5px;
+}
+
+/* --- icons --- */
+
+.material-icons {
+  position : relative;
+  top      : 7px;
+}
+
+.material-icons.tiny {
   position : relative;
   top      : 2px;
 }

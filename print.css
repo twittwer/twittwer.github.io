@@ -2,7 +2,7 @@
   size : portrait;
 }
 
-/* content selection */
+/* --- content selection --- */
 
 .background-container,
 nav,
@@ -17,16 +17,20 @@ img,
   padding-left : 10px;
 }
 
-/* main */
+/* --- general --- */
 
 a {
   color           : #000000;
   text-decoration : underline;
 }
 
+a[href].print-link:after {
+  content : "(" attr(href) ")";
+}
+
 ul {
-  margin-top: 0.7em;
-  margin-bottom: 0.7em;
+  margin-top    : 0.7em;
+  margin-bottom : 0.7em;
 }
 
 .material-icons {
@@ -44,73 +48,32 @@ ul {
   margin      : 21px 0 10px -15px;
 }
 
-/* contact card */
+li {
+  page-break-inside : avoid;
+}
+
+#cv-person {
+  page-break-before : always;
+}
+
+/* --- info-area --- */
 
 .contact-table > div {
   margin-top : 5px;
 }
 
-/* cv table */
+/* --- cv-table --- */
 
 .cv-table td {
   padding-top : 10px;
 }
 
 .cv-table tr > td:first-of-type { /* cv period cells */
-  vertical-align : top;
-  min-width      : 75px;
   padding-right  : 5px;
 }
 
-/* cv properties */
+/* --- cv-elements --- */
 
 .cv-status {
-  font-style : italic;
   color      : #000000;
-}
-
-/* --- UNSORTED --- */
-
-.contact-table i {
-  padding-right : 5px;
-}
-
-.reference-categories > div {
-  margin-top : 5px;
-}
-
-/* --- cv-area --- */
-
-.cv-table tr > td:first-of-type { /* cv period cells */
-  vertical-align : top;
-  min-width      : 75px;
-}
-
-.cv-title {
-  font-weight : bold;
-}
-
-.cv-sub-title {
-  font-weight : normal;
-}
-
-.cv-note {
-}
-
-.cv-sub-note {
-  font-style : italic;
-}
-
-.cv-list {
-  padding-left : 18px;
-}
-
-.cv-list ul > li {
-  list-style-type : disc;
-}
-
-.cv-list .material-icons.tiny,
-.cv-table .material-icons.tiny {
-  position : relative;
-  top      : 2px;
 }
