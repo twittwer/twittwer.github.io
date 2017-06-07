@@ -69,11 +69,11 @@ li {
 }
 
 .cv-table tr > td:first-of-type { /* cv period cells */
-  padding-right  : 5px;
+  padding-right : 5px;
 }
 
 /* --- cv-elements --- */
 
 .cv-status {
-  color      : #000000;
+  color : #000000;
 }
