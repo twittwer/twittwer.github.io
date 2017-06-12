@@ -7,14 +7,14 @@
 .background-container,
 nav,
 img,
-#reference-container {
+#reference-container,
+#birthday-age {
   display : none;
 }
 
-#online-link {
+#online-link,
+#birthday-city {
   display      : inline;
-  font-size    : 0.8em;
-  padding-left : 10px;
 }
 
 /* --- general --- */
@@ -52,14 +52,16 @@ li {
   page-break-inside : avoid;
 }
 
-#cv-person {
-  page-break-before : always;
+#online-link {
+  font-size    : 0.8em;
+  padding-left : 10px;
 }
 
 /* --- info-area --- */
 
 .contact-table > div {
   margin-top : 5px;
+  color      : #000000;
 }
 
 /* --- cv-table --- */
@@ -72,8 +74,12 @@ li {
   padding-right : 5px;
 }
 
-/* --- cv-elements --- */
+/* --- cv-elements/-sections --- */
 
 .cv-status {
   color : #000000;
+}
+
+#cv-person {
+  page-break-before : always;
 }

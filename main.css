@@ -107,6 +107,10 @@ a {
 
 /* --- info-area --- */
 
+.contact-table > div {
+  color : #ffab40;
+}
+
 .contact-table i {
   padding-right : 5px;
 }
