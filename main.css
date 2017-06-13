@@ -112,7 +112,11 @@ a {
 }
 
 .contact-table i {
-  padding-right : 5px;
+  padding: 0 5px 0 1px;
+}
+
+.contact-table i.fa-lg {
+  padding-left : 0;
 }
 
 .reference-categories > div {
