@@ -26,6 +26,6 @@ $(document)
         belowOrigin: true
       });
 
-    document.getElementById('birthday-age').innerText = '(' + calcAge(new Date(1995, 8, 16)) + ')';
+    document.getElementById('birthday-age').innerText = '(' + calcAge(new Date(1995, 8, 16)) + ' Jahre)';
 
   });
